@@ -5,7 +5,7 @@
 
 Copy any text to the clipboard in WebGL builds and share it with everyone using the native "Share" feature on any platform using the **Simple Copy-and-Share** plugin.
 
-## TESTED IN:
+### TESTED IN:
 - Brave (Desktop, Mobile),
 - Edge (Desktop, Mobile),
 - Yandex Browser (Desktop, Mobile),
