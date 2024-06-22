@@ -10,3 +10,9 @@ Copy any text to the clipboard in WebGL builds and share it with everyone using 
 - Edge (Desktop, Mobile),
 - Yandex Browser (Desktop, Mobile),
 - Telegram Web View (Desktop, Mobile, Web).
+
+# Installation
+
+**As source:**
+
+[Download a latest version via .unityPackage here](https://github.com/MrVeit/Veittech-Tools-SimpleCopyAndShare/releases)
