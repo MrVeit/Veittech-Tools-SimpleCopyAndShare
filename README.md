@@ -8,5 +8,5 @@ Copy any text to the clipboard in WebGL builds and share it with everyone using 
 ## TESTED IN:
 - Brave (Desktop, Mobile),
 - Edge (Desktop, Mobile),
-- Yandex Browser (Desktop, Mobile)
-- Telegram Web View (Desktop, Mobile, Web)
+- Yandex Browser (Desktop, Mobile),
+- Telegram Web View (Desktop, Mobile, Web).
