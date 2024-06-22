@@ -4,7 +4,7 @@
     "displayName": "Simple Copy-and-Share",
     "description": "Copy any text to the clipboard in WebGL builds and share it with everyone using the native `Share` feature on any platform using the Simple Copy-and-Share plugin.",
     "unity": "2020.3",
-    "unityRelease": "0v1",
+    "unityRelease": "0f1",
     "keywords": [
       "Copy",
       "Clipboard",
