@@ -9,8 +9,10 @@ namespace Veittech.Utility.SimpleCopyAndShare
     [HelpURL("https://github.com/MrVeit/Veittech-Tools-Simple-Copy-and-Share")]
     public sealed class SimpleCopyAndShare : MonoBehaviour
     {
+#if UNITY_WEBGL && !UNITY_EDITOR
         [DllImport("__Internal")]
         private static extern void CopyAndShare(string targetText);
+#endif
 
         private static readonly object _lock = new();
         private static SimpleCopyAndShare _instance;
@@ -66,10 +68,10 @@ namespace Veittech.Utility.SimpleCopyAndShare
             CopyAndShare(targetText);
 
             Debug.Log($"[Simple Copy-And-Share] Text successfully copied to the clipboard: {targetText}");
-#else
+#elif UNITY_EDITOR
             EditorGUIUtility.systemCopyBuffer = targetText;
 
-            Debug.LogWarning("[Simple Copy-And-Share] The option SHARE is only supported in the WebGL builds");
+            Debug.LogWarning("[Simple Copy-And-Share] The option `Share` is only supported in the WebGL builds");
 #endif
         }
     }
