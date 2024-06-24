@@ -1,6 +1,6 @@
 {
     "name": "com.veittech.tools.simple-copy-and-share",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Simple Copy-and-Share",
     "description": "Copy any text to the clipboard in WebGL builds and share it with everyone using the native `Share` feature on any platform using the Simple Copy-and-Share plugin.",
     "unity": "2020.3",
